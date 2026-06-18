@@ -398,6 +398,10 @@ System.out.print(num + " ");
 ## 21. Selection Sort
 
 ```java
+1. Assume current element is minimum
+2. Find actual minimum in remaining array
+3. Swap it with current position
+
 import java.util.*;
 class Main{
 public static void main(String[] args){
@@ -422,6 +426,8 @@ System.out.print(num+" ");
 ```
 
 ## 22. Insertion Sort
+
+Insertion Sort = "Pick a card and insert it into its correct position"
 
 ```java
 import java.util.*;
